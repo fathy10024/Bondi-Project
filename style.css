@@ -1,0 +1,310 @@
+.mynav {
+    background-color: #19283f !important;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.login {
+    background-color: #ff3150;
+    color: #ffc400;
+    height: 45px;
+    width: 70px;
+    border-radius: 50px;
+    border: 0;
+    margin-right: 20px;
+}
+
+.mynav li a {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cover {
+    height: 100vh;
+    background-color: #19283f;
+    min-height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started {
+    background-color: #ff3150;
+    color: #ffc400;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    border: 0;
+    margin-right: 20px;
+
+}
+
+.title {
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    width: 120px;
+    height: 1.5px;
+    background-color: #20c997;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.one {
+    position: relative;
+    height: 250px;
+    left: 30px;
+
+}
+
+.pencil {
+    position: relative;
+    height: 80px;
+    right: 70px;
+    top: 80px;
+    z-index: 1;
+
+}
+
+.tow {
+    position: relative;
+    height: 250px;
+    left: 50px;
+
+}
+
+.screen {
+    position: relative;
+    height: 80px;
+    top: 70px;
+    right: 70px;
+}
+
+.three {
+    position: relative;
+    height: 250px;
+    left: 50px;
+}
+
+
+
+
+
+.plug {
+    position: relative;
+    height: 80px;
+    top: 70px;
+    right: 60px;
+}
+
+
+.first-feature,
+.second-feature,
+.third-feature {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* our-work start*/
+.our-work {
+    background-color: #eff7fa;
+}
+
+.list1 .active {
+    background-color: #ff3150;
+    color: #ffc400;
+}
+
+.list1 ul li {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+.list1 ul li:not(.active):hover {
+    color: #ff3150;
+}
+
+.our-work .box {
+    padding: 5px;
+    padding-left: 0;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.our-work .box::before {
+    content: "Application";
+    position: absolute;
+    background-color: rgb(51 209 204 / 76%);
+    width: calc(100% - 5px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    transform: translateX(calc(-100% - 10px));
+
+}
+
+.our-work .box:hover::before {
+    transform: translateX(0);
+}
+
+.more {
+    background-color: #ff3150;
+    color: #ffc400;
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    border: 0;
+    margin-top: 20px;
+
+}
+
+/* our-work end*/
+
+/* stuff start */
+.stuff-text {
+    max-width: 600px;
+}
+
+.order {
+    background-color: #ff3150;
+    color: #ffc400;
+    border: 0;
+    padding: 0.5rem 1rem;
+}
+
+/* stuff end */
+
+/* our-team-start */
+.our-team {
+    background-color: #eff7fa;
+    padding-bottom: 80px;
+
+}
+
+.heading {
+    position: relative;
+    top: 50px;
+    margin-bottom: 80px;
+}
+
+.heading h2 {
+    color: #ffc400;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.heading p {
+    max-width: 900px;
+}
+
+.name-box {
+    background-color: #33d1cc;
+    color: white;
+    height: 60px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.team:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+
+
+/* our-team-End*/
+/* strating-start */
+.starting {
+    position: relative;
+    margin-top: 120px;
+    background-color: #19283f;
+    color: white;
+    height: 300px;
+    padding-top: 95px;
+}
+
+/* strating-end */
+
+/* project-start */
+.start-project {
+    background-color: #ff3150;
+    color: #ffc400;
+    border: 5px solid #273a58;
+    padding: 0.5rem 1rem;
+}
+
+.blog-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.first-blog:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.second-blog:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.third-blog:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.more-stories {
+    background-color: #ff3150;
+    color: #ffc400;
+    border: 0;
+    padding: 0.5rem 1rem;
+}
+
+.subscribe {
+    background-color: #ffc400;
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: #ff3150;
+    color: #ffc400;
+    border: 0;
+    padding: 0.5rem 1rem;
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+
+/* project-end */
+.footer {
+    background-color: #19283f;
+}
+
+.icons * {
+    margin-left: 20px;
+}
+
+.icons *:hover {
+    cursor: pointer;
+}
+
+.nav *:hover {
+    cursor: pointer;
+    color: white !important;
+}
